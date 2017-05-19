@@ -124,7 +124,7 @@ class SiteController extends Controller
         return $this->render('about');
     }
 
-    public function actionSay($message = 'Hello')
+    public function actionSay($message = 'Hello World')
     {
         return $this->render('say', ['message' => $message]);
     }
